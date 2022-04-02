@@ -1,0 +1,69 @@
+----- 30/03/2022 19:59:57 - Nayol (127.0.0.1) -----
+Debug Assertion 8.60 Map.cpp 918
+Wed Mar 30 02:00:47 2022
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel Core 2 QUAD Q840
+Video Card: Intel (R) G41 E
+Last Packet Types: 133 030 030 030 103 109 103 109 101 109
+Last Packet: 133 095 000 119 000 007 088 000 114 000 007 000 133 095 000 119
+Player Position: [95,119,7]
+Player Name: Nayol (Forgotten)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 133) (MainWindow = 9142192), reason:
+Communication.cpp 2452: exception occurred (sx = 8) (sy = 6), reason:
+Map.cpp 918: assertion failed (Type = 0), reason:
+Type>0
+Comment: 
+----- 30/03/2022 21:00:34 - Nayol (127.0.0.1) -----
+Debug Assertion 8.60 Talk.cpp 80
+Wed Mar 30 20:59:37 2022
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel Core 2 QUAD Q840
+Video Card: Intel (R) G41 E
+Last Packet Types: 180 180 109 030 180 109 109 030 109 030
+Last Packet: 180 026 092 000 073 110 118 097 108 105 100 032 116 121 112 101
+Player Position: [94,127,7]
+Player Name: Nayol (Forgotten)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 291B580 MoW: 0), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+ConsoleWindow.cpp 1682: exception occurred (Surface = 1), reason:
+ConsoleWindow.cpp 800: exception occurred, reason:
+GUI.cpp 1575: exception occurred, reason:
+ConsoleWindow.cpp 147: exception occurred, reason:
+ConsoleWindow.cpp 378: exception occurred, reason:
+Talk.cpp 80: none is talking
+Comment: 
+----- 30/03/2022 21:01:02 - Nayol (127.0.0.1) -----
+Debug Assertion 8.60 Talk.cpp 80
+Wed Mar 30 21:00:36 2022
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel Core 2 QUAD Q840
+Video Card: Intel (R) G41 E
+Last Packet Types: 180 109 180 180 162 141 130 161 160 120
+Last Packet: 180 000 002 000 097 097 000 000 000 000 000 000 000 000 000 000
+Player Position: [94,127,7]
+Player Name: Nayol (Forgotten)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 27DB580 MoW: 0), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+ConsoleWindow.cpp 1682: exception occurred (Surface = 1), reason:
+ConsoleWindow.cpp 800: exception occurred, reason:
+GUI.cpp 1575: exception occurred, reason:
+ConsoleWindow.cpp 147: exception occurred, reason:
+ConsoleWindow.cpp 378: exception occurred, reason:
+Talk.cpp 80: none is talking
+Comment: 

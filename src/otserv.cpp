@@ -91,15 +91,23 @@ int main(int argc, char* argv[])
 
 	g_loaderSignal.wait(g_loaderUniqueLock);
 
+    #ifdef _WIN64
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    #endif
 
 	if (serviceManager.is_running()) {
+        #ifdef _WIN64
 		SetConsoleTextAttribute(hConsole, 10);
+        #endif
 		std::cout << ">> " << g_config.getString(ConfigManager::SERVER_NAME) << " Server Online!" << std::endl << std::endl;
+        #ifdef _WIN64
 		SetConsoleTextAttribute(hConsole, 15);
+        #endif
 		serviceManager.run();
 	} else {
+        #ifdef _WIN64
 		SetConsoleTextAttribute(hConsole, 12);
+        #endif
 		std::cout << ">> No services running. The server is NOT online." << std::endl;
 		g_scheduler.shutdown();
 		g_databaseTasks.shutdown();
